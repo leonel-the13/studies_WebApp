@@ -13,10 +13,11 @@ function Header() {
   );
 }
 
-function MyContent() {
+function MyContent({ name }) {
   return (
     <div className="content">
       <h1>Why I want to Learn React</h1>
+      <h3>My name is {name}.</h3>
       <p>React is a powerful library for building user interfaces.</p>
       <p>Here we have some reasons to learn React:</p>
       <ol>
@@ -40,7 +41,7 @@ function Page() {
   return (
     <div>
       <Header />
-      <MyContent />
+      <MyContent name="Victor Leonel" />
       <MyFooter />
     </div>
   );
