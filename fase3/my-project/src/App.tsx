@@ -1,12 +1,13 @@
 import "./index.css";
-import NavBar from "./NavBar";
-import Card from "./Card";
+import Login from "./Login";
+// import NavBar from "./NavBar";
+// import Card from "./Card";
 function App() {
   return (
     <>
-      <Card />
-      <NavBar />
-      <div>Olá Mundo</div>
+      {/* <NavBar />
+      <Card /> */}
+      <Login />
     </>
   );
 }
